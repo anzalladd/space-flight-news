@@ -1,0 +1,13 @@
+.c-card {
+    position: relative !important;
+
+    &__text {
+        margin-bottom: 60px;
+    }
+
+    &__action {
+        position: absolute;
+        bottom: 20px;
+        width: calc(100% - 40px);
+    }
+}
